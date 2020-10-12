@@ -6,7 +6,7 @@ while(True):
     check, frame =video.read()
     
     print(frame)
-    
+    # great work.
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     # time.sleep(3)
     cv2.imshow("capturing",gray)
